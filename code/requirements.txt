@@ -1,0 +1,13 @@
+PyYAML
+matplotlib
+seaborn
+plotly
+requests
+configparser
+docker == 2.0.0
+wget == 3.2
+apache-libcloud == 2.3.0
+git+https://github.com/ManageIQ/manageiq-api-client-python.git#egg=manageiq
+psutil == 5.4.5
+boto == 2.48.0
+httplib2 == 0.11.3

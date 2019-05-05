@@ -1,0 +1,99 @@
+155_KB:
+  repetitions: 50
+  output_dir: /home/lexxito/experiments
+  cmps: [libcloud, boto_aws]
+  providers: [aws]
+  pre_experiment:
+    bucket:
+      - create:
+        - lexx
+  post_experiment:
+    bucket:
+      - delete
+  actions:
+    file:
+      - upload:
+        - /home/lexxito/test/files/155_KB
+      - download:
+        - /home/lexxito/test/
+      - delete
+
+310_KB:
+  repetitions: 50
+  output_dir: /home/lexxito/experiments
+  cmps: [libcloud, boto_aws]
+  providers: [aws]
+  pre_experiment:
+    bucket:
+      - create:
+        - lexx
+  post_experiment:
+    bucket:
+      - delete
+  actions:
+    file:
+      - upload:
+        - /home/lexxito/test/files/310_KB
+      - download:
+        - /home/lexxito/test/
+      - delete
+
+620_KB:
+  repetitions: 50
+  output_dir: /home/lexxito/experiments
+  cmps: [libcloud, boto_aws]
+  providers: [aws]
+  pre_experiment:
+    bucket:
+      - create:
+        - lexx
+  post_experiment:
+    bucket:
+      - delete
+  actions:
+    file:
+      - upload:
+        - /home/lexxito/test/files/620_KB
+      - download:
+        - /home/lexxito/test/
+      - delete
+
+1240_KB:
+  repetitions: 50
+  output_dir: /home/lexxito/experiments
+  cmps: [libcloud, boto_aws]
+  providers: [aws]
+  pre_experiment:
+    bucket:
+      - create:
+        - lexx
+  post_experiment:
+    bucket:
+      - delete
+  actions:
+    file:
+      - upload:
+        - /home/lexxito/test/files/1240_KB
+      - download:
+        - /home/lexxito/test/
+      - delete
+
+2480_KB:
+  repetitions: 50
+  output_dir: /home/lexxito/experiments
+  cmps: [libcloud, boto_aws]
+  providers: [aws]
+  pre_experiment:
+    bucket:
+      - create:
+        - lexx
+  post_experiment:
+    bucket:
+      - delete
+  actions:
+    file:
+      - upload:
+        - /home/lexxito/test/files/2480_KB
+      - download:
+        - /home/lexxito/test/
+      - delete
